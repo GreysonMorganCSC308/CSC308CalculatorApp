@@ -48,16 +48,6 @@
 			path = CSC308CalculatorApp;
 			sourceTree = "<group>";
 		};
-		D522C9A62F2BC1A200E3ABF9 /* CSC308CalculatorAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CSC308CalculatorAppTests;
-			sourceTree = "<group>";
-		};
-		D522C9B02F2BC1A200E3ABF9 /* CSC308CalculatorAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CSC308CalculatorAppUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				D522C98F2F2BC1A100E3ABF9 /* CSC308CalculatorApp */,
-				D522C9A62F2BC1A200E3ABF9 /* CSC308CalculatorAppTests */,
-				D522C9B02F2BC1A200E3ABF9 /* CSC308CalculatorAppUITests */,
 				D522C98E2F2BC1A100E3ABF9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				D522C9A52F2BC1A200E3ABF9 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				D522C9A62F2BC1A200E3ABF9 /* CSC308CalculatorAppTests */,
-			);
 			name = CSC308CalculatorAppTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				D522C9AF2F2BC1A200E3ABF9 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D522C9B02F2BC1A200E3ABF9 /* CSC308CalculatorAppUITests */,
 			);
 			name = CSC308CalculatorAppUITests;
 			packageProductDependencies = (
