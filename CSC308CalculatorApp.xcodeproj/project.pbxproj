@@ -27,6 +27,7 @@
 		D522C98D2F2BC1A100E3ABF9 /* CSC308CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSC308CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D522C9A32F2BC1A200E3ABF9 /* CSC308CalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSC308CalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D522C9AD2F2BC1A200E3ABF9 /* CSC308CalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSC308CalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A95CB02F88097D003C3D21 /* M10TypeCasting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = M10TypeCasting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,16 +47,6 @@
 				D522C9B52F2BC1A200E3ABF9 /* Exceptions for "CSC308CalculatorApp" folder in "CSC308CalculatorApp" target */,
 			);
 			path = CSC308CalculatorApp;
-			sourceTree = "<group>";
-		};
-		D522C9A62F2BC1A200E3ABF9 /* CSC308CalculatorAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CSC308CalculatorAppTests;
-			sourceTree = "<group>";
-		};
-		D522C9B02F2BC1A200E3ABF9 /* CSC308CalculatorAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CSC308CalculatorAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -89,9 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				D522C98F2F2BC1A100E3ABF9 /* CSC308CalculatorApp */,
-				D522C9A62F2BC1A200E3ABF9 /* CSC308CalculatorAppTests */,
-				D522C9B02F2BC1A200E3ABF9 /* CSC308CalculatorAppUITests */,
 				D522C98E2F2BC1A100E3ABF9 /* Products */,
+				D5A95CB02F88097D003C3D21 /* M10TypeCasting.playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,9 +133,6 @@
 			dependencies = (
 				D522C9A52F2BC1A200E3ABF9 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				D522C9A62F2BC1A200E3ABF9 /* CSC308CalculatorAppTests */,
-			);
 			name = CSC308CalculatorAppTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +152,6 @@
 			);
 			dependencies = (
 				D522C9AF2F2BC1A200E3ABF9 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D522C9B02F2BC1A200E3ABF9 /* CSC308CalculatorAppUITests */,
 			);
 			name = CSC308CalculatorAppUITests;
 			packageProductDependencies = (
